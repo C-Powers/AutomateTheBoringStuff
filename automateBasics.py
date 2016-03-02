@@ -1,0 +1,10 @@
+print ('hello world')
+print ('what is your name?')
+myName=raw_input('enter your name: ')
+print ('it is good to meet you ' + myName)
+print ('the length of time is:')
+print len(myName)
+print ('What is your age?')
+myAge = raw_input()
+print ('you will be ' + str(int(myAge)+1) + 'in a year.')
+print "----done----"
